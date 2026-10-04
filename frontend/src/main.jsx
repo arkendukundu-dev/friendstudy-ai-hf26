@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BookOpen, Brain, CalendarDays, Check, CheckCircle2, Clock3, GraduationCap, MessageCircle, Plus, Sparkles, Target, Trophy, X } from "lucide-react";
 import "./styles.css";
 
-const API = "http://localhost:8000";
+const API = "https://friendstudy-ai-hf26-1.onrender.com";;
 const defaultSubjects = [
   { name: "DSA", weak: false, done: 7, total: 12 },
   { name: "DBMS", weak: true, done: 4, total: 10 },
