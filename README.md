@@ -2,6 +2,8 @@
 
 an ai study companion powered by an open-weight qwen model running locally through ollama.
 
+https://friendstudy-ai-hf26-aoj3a8v43-ak-3e78.vercel.app/
+
 ## features
 
 - adaptive ai study plan
