@@ -14,7 +14,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/api/generate")
+requests.post(
+    OLLAMA_URL,
+    json=payload,
+    headers={"ngrok-skip-browser-warning": "true"},
+    timeout=...
+)
 MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:3b")
 
 class AskRequest(BaseModel):
